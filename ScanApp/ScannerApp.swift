@@ -1,9 +1,10 @@
 import SwiftUI
 
-@main struct MyApp: App {
+@main
+struct ScanApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
